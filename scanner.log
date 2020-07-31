@@ -1,0 +1,6 @@
+[36mINFO[0m[Jul 31 17:03:48.108901800] BlockScanner running                         
+[36mINFO[0m[Jul 31 17:03:48.111895700] BlockChain:                                  
+[36mINFO[0m[Jul 31 17:03:48.111895700] Node Address:                                
+[36mINFO[0m[Jul 31 17:03:48.111895700] Starting Block: 0                            
+[36mINFO[0m[Jul 31 17:03:48.111895700] Detecting Mode : both                        
+[31mERRO[0m[Jul 31 17:03:48.112893400] addresssdb create fail !!                    
