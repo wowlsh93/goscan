@@ -8,9 +8,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/spf13/cobra"
 	"github.com/wowlsh93/goscan/core/bs/scanner"
 	"github.com/wowlsh93/goscan/core/bs/version"
-	"github.com/spf13/cobra"
 	"os"
 )
 
@@ -18,7 +18,7 @@ var mainCmd = &cobra.Command{
 
 	Use:   "bs",
 	Short: "Sample scanner",
-	Long:  `This application is simple scanner to learn filecoin`,
+	Long:  `This application is simple scanner to learn ethereum`,
 	//	Run: func(cmd *cobra.Command, args []string) { },
 }
 

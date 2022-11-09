@@ -4,3 +4,25 @@
 [36mINFO[0m[Jul 31 17:03:48.111895700] Starting Block: 0                            
 [36mINFO[0m[Jul 31 17:03:48.111895700] Detecting Mode : both                        
 [31mERRO[0m[Jul 31 17:03:48.112893400] addresssdb create fail !!                    
+[36mINFO[0m[Nov  9 15:58:40.721027345] BlockScanner running                         
+[36mINFO[0m[Nov  9 15:58:40.721241136] BlockChain:                                  
+[36mINFO[0m[Nov  9 15:58:40.721294825] Node Address:                                
+[36mINFO[0m[Nov  9 15:58:40.721319556] Starting Block: 0                            
+[36mINFO[0m[Nov  9 15:58:40.721341292] Detecting Mode : both                        
+[31mERRO[0m[Nov  9 15:58:40.721382996] addresssdb create fail !!                    
+[36mINFO[0m[Nov  9 15:59:05.337092716] BlockScanner running                         
+[36mINFO[0m[Nov  9 15:59:05.337285720] BlockChain:                                  
+[36mINFO[0m[Nov  9 15:59:05.337333646] Node Address:                                
+[36mINFO[0m[Nov  9 15:59:05.337373773] Starting Block: 0                            
+[36mINFO[0m[Nov  9 15:59:05.337408851] Detecting Mode : both                        
+[31mERRO[0m[Nov  9 15:59:18.611166756] addresssdb create fail !!                    
+[36mINFO[0m[Nov  9 16:01:10.272401027] BlockScanner running                         
+[36mINFO[0m[Nov  9 16:01:10.272604979] BlockChain:                                  
+[36mINFO[0m[Nov  9 16:01:10.272642755] Node Address:                                
+[36mINFO[0m[Nov  9 16:01:10.272671891] Starting Block: 0                            
+[36mINFO[0m[Nov  9 16:01:10.272722738] Detecting Mode : both                        
+[36mINFO[0m[Nov  9 16:04:54.839006742] BlockScanner running                         
+[36mINFO[0m[Nov  9 16:04:54.839354445] BlockChain:                                  
+[36mINFO[0m[Nov  9 16:04:54.839390784] Node Address:                                
+[36mINFO[0m[Nov  9 16:04:54.839423900] Starting Block: 0                            
+[36mINFO[0m[Nov  9 16:04:54.839448726] Detecting Mode : both                        

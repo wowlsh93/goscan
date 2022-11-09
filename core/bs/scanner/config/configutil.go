@@ -9,20 +9,18 @@ package config
 import (
 	"fmt"
 	"github.com/fsnotify/fsnotify"
-	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 )
 
 func InitConfig(configPath string) Configuration {
 
 	viper.SetConfigType("yaml")
-	viper.SetConfigName("bs_config") // name of config file (without extension)
+	viper.SetConfigName("config") // name of config file (without extension)
 
 	if configPath != "" {
 		viper.AddConfigPath(configPath)
 	} else {
-		home, _ := homedir.Dir()
-		configPath = home + "/.zavis/configurations"
+		configPath = "../conf/"
 		viper.AddConfigPath(configPath)
 	}
 

@@ -14,8 +14,6 @@ scanner:
         confirmation_count: 10
         max_address_readbuffer_size   : 10000
 
-
-
 server:
 
     logpath: ./logs/

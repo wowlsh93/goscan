@@ -8,12 +8,12 @@ package scanner
 
 import (
 	"fmt"
+	"github.com/sirupsen/logrus"
+	"github.com/spf13/cobra"
 	"github.com/wowlsh93/goscan/common/flogging"
 	"github.com/wowlsh93/goscan/core/bs/scanner/bsmanager"
 	"github.com/wowlsh93/goscan/core/bs/scanner/config"
 	"github.com/wowlsh93/goscan/core/bs/version"
-	"github.com/sirupsen/logrus"
-	"github.com/spf13/cobra"
 	"os"
 	"os/signal"
 	"syscall"
@@ -27,7 +27,7 @@ var configPath string
 
 func startCmd() *cobra.Command {
 
-	scannerStartCmd.PersistentFlags().StringVarP(&configPath, "config", "c", "", "config file (default is ./configurations/bs_config.yaml)")
+	scannerStartCmd.PersistentFlags().StringVarP(&configPath, "config", "c", "", "config file (default is ./config/config.yaml)")
 	scannerStartCmd.PersistentFlags().StringVarP(&detectMode, "mode", "m", "", "mode - both, deposit, withdrawl (default is both")
 
 	scannerStartCmd.MarkPersistentFlagRequired("mode")
