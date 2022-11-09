@@ -5,7 +5,7 @@ scanner:
 
         simbol: eth
         node_listen_address: https://mainnet.infura.io/v3/9366572d83da40e4b827a664e6194e06
-        start_monitoring_block: 30000
+        start_monitoring_block: 15931396
         collect_account_list_path: ./data/collectaddress.txt
         deposit_account_list_path:  ./data/depositaddress.txt
         deposit_account_db_path:  ./database
